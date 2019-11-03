@@ -1,0 +1,1392 @@
+<!DOCTYPE HTML>
+<!--
+	Miniport by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+         })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+         
+         ga('create', 'UA-34281438-1', 'auto');
+         ga('send', 'pageview');
+         
+    </script>
+	<head>
+		<title>Mobile Intelligent Network Lab, Taipei Tech</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Nav -->
+        <header id="header">
+			<nav id="nav">
+				<ul class="container">
+                    <!--<li><img src="images/Taipei Tech Logo-cmyk.jpg" style="margin-bottom: -30px;" width ="120"></strong></li>-->
+					<li><a href="#top">Top</a></li>
+					<li class="dropdown">
+                        <a href="#work" class="dropbtn">Research</a>
+                    <div class="dropdown-content">
+                        <a href="#IP">Indoor Positioning</a>
+                        <a href="#DL">Deep Learning</a>
+                        <a href="#SDWN">Software Defined Networking</a>
+                        <a href="#Project">--Project List--</a>
+                    </div>
+                    </li>
+                    <!--<li><a href="#portfolio">Portfolio</a></li>-->
+                    <li class="dropdown">
+                        <a href="#LAB" class="dropbtn">Members</a>
+                        <div class="dropdown-content">
+                            <a href=po-hsuan.html>Advisor</a>
+                            <a href="#GA">Graduate Students</a>
+                            <a href="#Alu">Alumni</a>
+                            <a href="#ISMaster">In-service Master Program</a>
+                            <a href="#US">Undergraduate Students</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#Course" class="dropbtn">Course</a>
+                        <div class="dropdown-content">
+                            <a href="#CommIntro">通訊工程導論</a>
+                            <a href="#SDN">軟體定義無線網路</a>
+                             <!--
+                            <a href="#Intro">大學入門與工程倫理</a>
+                            <a href="#CommIntro">通訊工程導論</a>
+                              <a href="#IntroA">二甲 工數二</a>
+                              <a href="#IntroB">二乙 工數二</a>
+                              <a href="#IntroC">二丙/電資 工數二</a>
+							-->
+                        </div>
+                    </li>
+                        <li class="dropdown">
+                            <a href="#publication" class="dropbtn">Publication</a>
+                            <div class="dropdown-content">
+                                <a href="#journal">Journal</a>
+                                <a href="#conference">Conference</a>
+                            </div>
+                        </li>
+                    <!--<li><a href=index.html#contact>Contact</a></li>-->
+				</ul>
+			</nav>
+        </header>
+
+		<!-- Home -->
+			<div class="wrapper style1 first">
+				<article class="container" id="top">
+					<div class="row">
+						<div class="4u 12u(mobile)">
+							<span class="image fit"><img src="images/LAB2017.png" alt="" style="margin-bottom: -15px"/></span>
+                
+						</div>
+						<div class="8u 12u(mobile)">
+							<header>
+								<h2><strong>Mobile Intelligent Network Lab 210 @ <img src="images/Taipei Tech Logo-w.png" style="margin-bottom: -15px" width ="100"></strong></h2>
+							</header>
+<!--							<p>And this is <strong>Miniport</strong>, a free, fully responsive HTML5 site template designed by <a href="http://twitter.com/ajlkn">AJ</a> for <a href="http://html5up.net">HTML5 UP</a> &amp; released under the <a href="http://html5up.net/license">CCA license</a>.</p>
+ -->
+                            <p>行動智慧型網路實驗室致力於發展通訊網路信號處理的技術，包含利用統計的偵測與估計以及機器學習進行訊號處理，及利用軟體開發通訊系統及網路協定的原型。當通訊傳輸大量增加時，如何顧及通訊最重要的資源包含頻寬與消耗功率，在以單位功率考量下最有效的去融和資料。
+                            <!--有鑒於通訊元件與日俱增，加上感測器、小基地台的大量佈建與其多天線的技術，無線信號將遍佈所有區域。整合具有移動性的端，因為端分散式遍佈於不同區域 (例如 : 智慧型手機) 配合其所具有的感知能力去偵測與估計周遭資訊; 另一方面，結合具有巨大運算能力並且儲存量歷史記錄或事前資訊的雲，針對資料的估算並發展資料的數學統計模型，根據量測的資料進行一步融合與決策。藉由雲與端的通訊，有效取得通訊、硬體與計算複雜度間的平衡，達成物聯網的概念。
+                             -->
+                            </p>
+							<a href="#work" class="button big scrolly">Learn about what we do</a>
+						</div>
+					</div>
+				</article>
+			</div>
+
+		<!-- Work -->
+			<div class="wrapper style2">
+				<article id="work">
+					<header>
+						<h2>Research Direction</h2>
+						本實驗室著重於利用軟體開發通訊系統、網路協定與訊號處理技術，包含使用軟體無線電平台 (Software-defined radio) 及軟體定義網路 (Software-defined networking)。目前研究方向包含：
+					</header>
+					<div class="container">
+						<div class="row">
+							<div class="4u 12u(mobile)" id="IP">
+								<section class="box style1">
+								<!--	<span class="icon featured fa-comments-o"></span>
+                                 -->
+                                    <!--	<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>-->
+                                    <a href="#" class="image featured"><img src="images/Research/CSI.png" alt=""/></a>
+                                    <h4>Indoor Positioning using Channel State Information</h4>
+                                    </section>
+							</div>
+                            <div class="4u 12u(mobile)" id="SDWN">
+                                <section class="box style1">
+                                    <!--
+                                     <span class="icon featured fa-thumbs-o-up"></span>
+                                     -->
+                                    <!--	<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>-->
+                                    <a href="#" class="image featured"><img src="images/Research/SDN.png" alt="" /></a>
+                                    <h4>Software-Defined Wireless Networking</h4>
+                                    1. Mesh Networks<br>
+                                    2. OpenAirInterface<br>
+                                </section>
+                            </div>
+                            <div class="4u 12u(mobile)" id = "DL">
+								<section class="box style2">
+                                    <!--
+									<span class="icon featured fa-camera-retro"></span>
+                                 -->
+								<!--	<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>-->
+                                <a href="#" class="image featured"><img src="images/Research/DL.png" alt="" width = 100 /></a>
+                                <h4>Deep Learning for RF-based Object Recognition</h4>
+                                                                </section>
+							</div>
+						</div>
+					</div>
+                </article>
+            </div>
+                    
+                    <div class="wrapper style1 first">
+                        <article class="container" id="Project">
+                            <div class="row">
+                                <!--                 <div class="4u 12u(mobile)">
+                                 <span class="image fit"><img src="images/direction.png" alt="" /></span>
+                                 </div>
+                                 -->
+                                <div class="12u 12u(mobile)">
+                    <h2>Project List</h2>
+                    <blockquote>
+                        <!-- <table border="1" cellspacing="0" cellpadding="3"> -->
+                        <table style="border:1px #cccccc solid;border-bottom:1px solid #000;" cellpadding="10" border='1'>
+                            <tr class="shade" align="left">
+                                <td width="50"><font class="normalbold">List</font></td>
+                                <td width="380"><font class="normalbold">Topic</font></td>
+                                <td width="100"><font class="normalbold">Funded By</font></td>
+                                <td width="150"><font class="normalbold">Period</font></td>
+                                <td width="50"><font class="normalbold">Role</font></td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">22</font></td>
+                                <td><font class="normal">Semi-supervised Learning-based Indoor Positioning using Wi-Fi Systems</font></td>
+                                <td><font class="normal">MOST</font></td>
+                                <td><font class="normal">Aug. 2018 - July. 2020</font></td>
+                                <td><font class="normal">PI</td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">21</font></td>
+                                <td><font class="normal">Wi-Fi Fingerprint-Based Indoor Positioning using Deep Learning and Crowdsourcing</font></td>
+                                <td><font class="normal">NTUT-BIT</font></td>
+                                <td><font class="normal">Jan. 2018 - Dec. 2019</font></td>
+                                <td><font class="normal">Co-PI</td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">20</font></td>
+                                <td><font class="normal">Learning-based Pedestrian Flow Analysis in Time-varying Indoor Environments</font></td>
+                                <td><font class="normal">CHTTL</font></td>
+                                <td><font class="normal">Feb. 2018 - Jan. 2019</font></td>
+                                <td><font class="normal">Co-PI</td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">19</font></td>
+                                <td><font class="normal">基於通道響應的量測機制及室內定位演算法研究與測試</font></td>
+                                <td><font class="normal">ITRI</font></td>
+                                <td><font class="normal">Nov. 2017 - Oct. 2018</font></td>
+                                <td><font class="normal">PI</td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">18</font></td>
+                                <td><font class="normal">Super-Resolution, Compressive-Sensing and Deep-Learning based Network Positioning using Channel Impulse Response (基於多路徑資訊的超解析、壓縮感測、及深度學習網路定位演算法設計與實作)</font></td>
+                                <td><font class="normal">MOST</font></td>
+                                <td><font class="normal">Aug 2017 - July 2018</font></td>
+                                <td><font class="normal">PI</td>
+                            </tr>
+                            <!--
+                            <tr align="left">
+                                <td><font class="normalbold">18</font></td>
+                                <td><font class="normal">基於機器學習之雷達目標辨識研究</font></td>
+                                <td><font class="normal">KaiKuTek</font></td>
+                                <td><font class="normal">July 2017 - June 2018</td>
+                                <td><font class="normal">PI</td>
+                            </tr>
+                            -->
+                            <tr align="left">
+                                <td><font class="normalbold">17</font></td>
+                                <td><font class="normal">可見光通訊與定位之設計與實作</font></td>
+                                <td><font class="normal">USTP-NTUT-NTPU Research Cooperation</font></td>
+                                <td><font class="normal">Jan. 2017 - Dec. 2017</font></td>
+                                <td><font class="normal">PI</td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">16</font></td>
+                                <td><font class="normal">Talent cultivation program for advanced mobile broadband technology: Software Defined Wireless Networks (行動寬頻尖端技術課程推廣計畫 - 軟體定義無線網路)</font></td>
+                                <td><font class="normal">教育部</font></td>
+                                <td><font class="normal">Dec. 2016 - Feb. 2018</td>
+                                <td>Course-PI</td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">15</font></td>
+                                <td><font class="normal">Design of 5G Location-based Vehicular Networks for Smart Car (適用於智慧車之5G位基型車聯網設計)</font></td>
+                                <td><font class="normal">MOST</font></td>
+                                <td><font class="normal">Aug. 2016 - July 2017</td>
+                                <td>PI</td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">14</font></td>
+                                <td><font class="normal">新式人機互動技術與設計組  -- 物聯網及雲端技術與應用計畫</font></td>
+                                <td><font class="normal">發展典範科技大學計畫</font></td>
+                                <td><font class="normal">Jan. 2016 - Dec. 2016</td>
+                                <td>Member</td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">13</font></td>
+                                <td><font class="normal">Research on TOA-based Location Estimation Algorithm (基於TOA的定位算法研究)</font></td>
+                                <td><font class="normal">NTUT-USTB Research Cooperation</font></td>
+                                <td><font class="normal">Jan. 2016 - Dec. 2016</td>
+                                <td>PI</td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">12</font></td>
+                                <td><font class="normal">3GPP室內定位後續研究</font></td>
+                                <td><font class="normal">USTP-NTUT-NTPU Research Cooperation</font></td>
+                                <td><font class="normal">Jan. 2016 - Dec. 2016</td>
+                                <td>PI</td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">11</font></td>
+                                <td><font class="normal">Hybrid Network Deployment and Wireless Positioning Algorithms for Indoor Environment (混合式網路佈建及室內位置估算與追蹤技術)</font></td>
+                                <td><font class="normal">U-Media Corp. (宇智網通)</font></td>
+                                <td><font class="normal">July 2015 - June 2016</td>
+                                <td>Co-PI</td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">10</font></td>
+                                <td><font class="normal">多天線系統應用技術開發(MIMO) 分項, 物聯網及雲端技術與應用計畫</font></td>
+                                <td><font class="normal">發展典範科技大學計畫</font></td>
+                                <td><font class="normal">Jan. 2015 - Dec. 2015</td>
+                                <td>Member</td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">9</font></td>
+                                <td><font class="normal">Research and Implementation on Scientific Equipment Monitoring for Digital Convergent Broadband and Cloud Services II (數位匯流寬頻技術及雲端服務於科技設備監控之研究與運用 第二期：以性侵害犯罪付保護管束人科技設備監控為例)</font></td>
+                                <td><font class="normal">Academic Development Program, Taiwan High Prosecutor Office (臺灣高等法院檢察署科專計畫)</font></td>
+                                <td><font class="normal">Jan. 2015 - Dec. 2015</td>
+                                <td>Co-PI</td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">8</font></td>
+                                <td><font class="normal">室內定位及3GPP通訊系統研究發展</font></td>
+                                <td><font class="normal">USTP-NTUT-NTPU Research Cooperation</font></td>
+                                <td><font class="normal">Jan. 2015 - Dec. 2015</td>
+                                <td>PI</td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">7</font></td>
+                                <td><font class="normal">Distributed Indoor Cooperative Localization (II) (分布式室內協作定位技術研究 II)</font></td>
+                                <td><font class="normal">NTUT-BIT Research Cooperationr</font></td>
+                                <td><font class="normal">Jan. 2015 - Dec. 2015</td>
+                                <td>PI</td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">6</font></td>
+                                <td><font class="normal">Robust Clustering in Cooperative Vehicular Networks for the Intelligent Carpool Systems
+                                    (適用於智慧型共乘系統的合作式車載網路強健群聚設計)</font></td>
+                                <td><font class="normal">MOST</font></td>
+                                <td><font class="normal">Aug. 2014 - July 2016</td>
+                                <td>PI</td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">5</font></td>
+                                <td><font class="normal">Research and Development of Intelligent Carpool Systems (智慧型汽車共乘系統之研發--總計畫)</font></td>
+                                <td><font class="normal">MOST</font></td>
+                                <td><font class="normal">Aug. 2014 - July 2016</td>
+                                <td>Co-PI</td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">4</font></td>
+                                <td><font class="normal">Distributed Indoor Cooperative Localization (分布式室內協作定位技術研究)</font></td>
+                                <td><font class="normal">NTUT-BIT Research Cooperation</font></td>
+                                <td><font class="normal">May 2014 - Apr. 2015</td>
+                                <td>PI</td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">3</font></td>
+                                <td><font class="normal">Research and Implementation on Scientific Equipment Monitoring for Digital Convergent Broadband and Cloud Services (數位匯流寬頻技術及雲端服務於科技設備監控之研究與運用計畫：以性侵害犯罪付保護管束人為例)
+                                <td><font class="normal">Academic Development Program, Taiwan High Prosecutor Office</font></td>
+                                <td><font class="normal">Mar. 2014 - Dec. 2014</td>
+                                <td>Co-PI</td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">2</font></td>
+                                <td><font class="normal">Simulation, and Performance Analysis of Network Architectures for Cooperative Localization (合作式定位網路架構之設計、模擬與效能分析)</font></td>
+                                <td><font class="normal">NSC</font></td>
+                                <td><font class="normal">Aug. 2013 - July 2014</td>
+                                <td>PI</td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">1</font></td>
+                                <td><font class="normal">Real-time Filtering Techniques for Cooperative Localization (合作式定位之即時濾波技術研究)</font></td>
+                                <td><font class="normal">NSC</font></td>
+                                <td><font class="normal">Sep. 2012 - July 2013</td>
+                                <td>PI</td>
+                            </tr>
+                        </table>
+                    </blockquote>
+                    <footer>
+<!--                        <p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
+
+                        <a href="#portfolio" class="button big scrolly">See some of our recent work</a>
+					</footer>
+  -->
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    
+                    <!-- Portfolio -->
+			<div class="wrapper style3">
+				<article id="LAB">
+					<header>
+						<h2>LAB Members</h2>
+					</header>
+					<div class="container">
+                        <article id="Advisor">
+                        <h3>Advisor</h3>
+						<div class="row">
+							<div class="4u 12u(mobile)">
+								<article class="box style2">
+							<!--		<a href="#" class="image featured"><img src="images/PH.png" alt="" /></a>
+                             -->
+                            
+                            <a href=po-hsuan.html class="image centered"><img src="images/PH.png" alt="" height = 200;/></a>
+									<h3><a href=po-hsuan.html>曾柏軒 (Po-Hsuan Tseng)</a></h3>
+									北科電子系 副教授<br>
+                                    email: phtseng AT ntut.edu.tw<br>
+								</article>
+							</div>
+                        </div>
+                        <p>
+                        <article id="GA">
+                        <h3>Graduate Students</h3>
+						<div class="row">
+                            <div class="4u 12u(mobile)">
+                                <article class="box style2">
+                                    <a href="mailto:andy0010@hotmail.com.tw" class="image centered"><img src="images/LAB/you.jpg" alt="" height = 200;/></a>
+                                    <h3><a href="mailto:andy0010@hotmail.com.tw">游日存</a></h3>
+                                    碩一 / 108 入學 / 畢業學校:北科<br>
+                                    基於毫米波的人體姿態辨識<br>
+                                    andy0010 AT hotmail.com.tw<br>
+                                </article>
+                            </div>
+							<div class="4u 12u(mobile)">
+                                <article class="box style2">
+                                    <a href="mailto:a3327642@gmail.com" class="image centered"><img src="images/LAB/yee.png" alt="" height = 200;/></a>
+                                    <h3><a href="mailto:a3327642@gmail.com">吳展逸</a></h3>
+                                    碩一 / 108 入學 / 畢業學校:北科<br>
+                                    基於Wi-Fi的室內定位<br>
+                                    a3327642 AT gmail.com<br>
+                                </article>
+                            </div>
+                            <div class="4u 12u(mobile)">
+                                <article class="box style2">
+                                    <a href="mailto:407796844@qq.com" class="image centered"><img src="images/LAB/hua.jpg" alt="" height = 200;/></a>
+                                    <h3><a href="mailto:407796844@qq.com">林聖曄</a></h3>
+                                    碩一 / 108 入學 / 畢業學校:華東理工<br>
+                                    <br>
+                                    407796844 AT qq.com<br>
+                                </article>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="4u 12u(mobile)">
+                                <article class="box style2">
+                                    <a href="mailto:stu92012@gmail.com" class="image centered"><img src="images/LAB/houj.jpg" alt="" "" height = 200;/></a>
+                                    <h3><a href="mailto:stu92012@gmail.com">楊其峰</a></h3>
+                                    碩一 / 108 入學 / 畢業學校:聯合<br>
+                                    軟體無線網狀網路於邊緣運算的應用<br>
+                                    stu92012 AT gmail.com<br>
+                                </article>
+                            </div>
+                            <div class="4u 12u(mobile)">
+                                <article class="box style2">
+                                    <a href="mailto:e9190712@kimo.com" class="image centered"><img src="images/LAB/chu.jpg" alt="" height = 200;/></a>
+                                    <h3><a href="mailto:e9190712@kimo.com">邱志高</a></h3>
+                                    碩一 / 108 入學 / 畢業學校:義守<br>
+                                    深度學習於醫學影像的應用<br>
+                                    e9190712 AT kimo.com<br>
+                                </article>
+                            </div>
+                            <div class="4u 12u(mobile)">
+                                <article class="box style2">
+                                    <a href="mailto:benzxa@gmail.com" class="image centered"><img src="images/LAB/Lee.jpg" alt="" "" height = 200;/></a>
+                                    <h3><a href="mailto:benzxa@gmail.com">李政璋</a></h3>
+                                    碩二 / 107 入學 / 畢業學校:北科<br>
+                                    深度學習於醫學影像的應用<br>
+                                    benzxa AT gmail.com<br>
+                                </article>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="4u 12u(mobile)">
+                                <article class="box style2">
+                                    <a href="mailto:stube0806450@gmail.com" class="image centered"><img src="images/LAB/Lee2.jpg" alt="" height = 200;/></a>
+                                    <h3><a href="mailto:stube0806450@gmail.com">李陞陽</a></h3>
+                                    碩二 / 107 入學 / 畢業學校:北科<br>
+                                    軟體無線網狀網路於邊緣運算的應用<br>
+                                    stube0806450 AT gmail.com<br>
+                                </article>
+                            </div>
+                            <div class="4u 12u(mobile)">
+                                <article class="box style2">
+                                    <a href="mailto:kaka1212331@yahoo.com.tw" class="image centered"><img src="images/LAB/Hsu.jpg" alt="" height = 200;/></a>
+                                    <h3><a href="mailto:kaka1212331@yahoo.com.tw">許采婷</a></h3>
+                                    碩二 / 107 入學 / 畢業學校:聯合<br>
+                                    半監督式 Wi-Fi 室內定位<br>
+                                    kaka1212331 AT yahoo.com.tw<br>
+                                </article>
+                            </div>
+                            
+                        </div>
+                        <article id="Alu">
+                    <p>
+                    <h3>Alumni</h3>
+					<div class="row">
+						<div class="4u 12u(mobile)">
+							<article class="box style2">
+								<a href="mailto:das73541@gmail.com" class="image centered"><img src="images/LAB/Yen.jpg" alt="" "" height = 200;/></a>
+								<h3><a href="mailto:das73541@gmail.com">嚴勵</a></h3>
+								106 入學 / 畢業學校:淡江<br>
+								應用深度學習在無線訊號為基礎的目標辨識<br>
+								das73541 AT gmail.com<br>
+							</article>
+						</div>
+						<div class="4u 12u(mobile)">
+							<article class="box style2">
+								<a href="mailto:cosmos820604@gmail.com" class="image centered"><img src="images/LAB/Cosmos.png" alt="" height = 200;/></a>
+								<h3><a href="mailto:cosmos820604@gmail.com">吳易寬</a></h3>
+								106 入學 / 畢業學校:元智<br>
+								應用深度學習在無線訊號為基礎的目標辨識<br>
+								cosmos820604 AT gmail.com<br>
+							</article>
+						</div>
+						<div class="4u 12u(mobile)">
+							<article class="box style2">
+								<a href="mailto:ga795463@gmail.com" class="image centered"><img src="images/LAB/Chiang.png" alt="" height = 200;/></a>
+								<h3><a href="mailto:ga795463@gmail.com">江建勳</a></h3>
+								106 入學 / 畢業學校:中原<br>
+								結合 SDN 與 OAI 的 small cell 系統開發<br>
+								ga795463 AT gmail.com<br>
+							</article>
+						</div>
+					</div>
+					
+                    <div class="row">
+                        <div class="4u 12u(mobile)">
+                            <article class="box style2">
+                                <a href="mailto:tinywang0914@gmail.com" class="image centered"><img src="images/LAB/tonywang.jpg" alt="" height = 200;/></a>
+                                <h3><a href="mailto:tinywang0914@gmail.com">王才茂</a></h3>
+                                101 入學 / 畢業學校:元智 / Now: 台灣典範半導體公司<br>
+                                <font color=black>Ray Tracing Assisted Location Estimation for Indoor Environment</font><br>
+                                <font color=red>*IEEE Tran. I&M 2017</font><br>
+                                email: tinywang0914 AT gmail.com<br>
+                            </article>
+                        </div>
+                        <div class="4u 12u(mobile)">
+                            <article class="box style2">
+                                <a href="mailto:wisher2424@gmail.com" class="image centered"><img src="images/LAB/wisher2424.jpg" alt="" height = 200;/></a>
+                                <h3><a href="mailto:wisher2424@gmail.com">姚承佑</a></h3>
+                                102 入學 / 畢業學校:虎尾科 / Now: 研華<br>
+                                <font color=black>Design and Implementation of Distributed Transmit Beamforming for OFDM system</font><br>
+                                <font color=red>*2014 NI校園通訊競賽 軟體定義無線電系統組 第二名</font><br>
+                                email: wisher2424 AT gmail.com<br>
+                            </article>
+                        </div>
+                        <div class="4u 12u(mobile)">
+                            <article class="box style2">
+                                <a href="mailto:x76629@gmail.com" class="image centered"><img src="images/LAB/x76629.jpg" alt="" height = 200;/></a>
+                                <h3><a href="mailto:x76629@gmail.com">吳孟剛</a></h3>
+                                102 入學 / 畢業學校:中原 / Now: 光寶<br>
+                                <font color=black>Indoor Navigation for Location-Based Mesh Network</font><br>
+                                x76629 AT gmail.com<br>
+                            </article>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="4u 12u(mobile)">
+                            <article class="box style2">
+                                <a href="mailto:andy791113@gmail.com" class="image centered"><img src="images/LAB/wei_1113.jpg" alt="" height = 200;/></a>
+                                <h3><a href="mailto:andy791113@gmail.com">吳俊衛</a></h3>
+                                102 入學 / 畢業學校:淡江 / Now: 明泰<br>
+                                <font color=black>Clustering Design for LTE-A Vehicular Networks</font><br>
+                                email: andy791113 AT gmail.com<br>
+                            </article>
+                        </div>
+                        <div class="4u 12u(mobile)">
+                            <article class="box style2">
+                                <a href="mailto:josh0916@outlook.com" class="image centered"><img src="images/LAB/lerry.jpg" alt="" height = 200;/></a>
+                                <h3><a href="mailto:josh0916@outlook.com">唐志豪</a></h3>
+                                102 入學 / 畢業學校:淡江 / Now: 華擎<br>
+                                <font color=black>Design and Implementation of Distributed Transmit Beamforming for OFDM system</font><br>
+                                <font color=red>*IEEE Comm. Letter 2016</font><br>
+                                email: josh0916 AT outlook.com<br>
+                            </article>
+                        </div>
+                        <div class="4u 12u(mobile)">
+                            <article class="box style2">
+                                <a href="mailto:death1220@gmail.com" class="image centered"><img src="images/LAB/YihChieh.png" alt="" height = 200;/></a>
+                                <h3><a href="mailto:death1220@gmail.com">林義傑</a></h3>
+                                103 入學 / 畢業學校:虎尾科 / Now: 光寶<br>
+                                <font color=black>Super-resolution aided Indoor Positioning Fingerprinting based on Channel Impulse Response Measurement</font><br>
+                                <font color=red>*Conf. Paper in WCNC 2017</font><br>
+                                death1220 AT gmail.com<br>
+                            </article>
+                        </div>
+                    </div>
+
+                    
+                    <div class="row">
+                        <div class="4u 12u(mobile)">
+                            <article class="box style2">
+                                <a href="mailto:huangwowtw@gmail.com" class="image centered"><img src="images/LAB/LiYang.png" alt="" height = 200;/></a>
+                                <h3><a href="mailto:huangwowtw@gmail.com">黃立洋</a></h3>
+                                103 入學 / 畢業學校:銘傳<br>
+                                <font color=black>Resource allocation for Vehicle to Vehicle communication in LTE-A Networks</font><br>
+                                <font color=red>*北科互聯網+創業競賽 Top-10</font><br>
+                                huangwowtw AT gmail.com<br>
+                            </article>
+                        </div>
+                        <div class="4u 12u(mobile)">
+                            <article class="box style2">
+                                <a href="mailto:cuteking00@gmail.com" class="image centered"><img src="images/LAB/ChiYuan.png" alt="" height = 200;/></a>
+                                <h3><a href="mailto:cuteking00@gmail.com">鄭智元</a></h3>
+                                103 入學 / 畢業學校:聯合 / Now: 明泰<br>
+                                <font color=black>Design and Implementation of Wireless Mesh Open vSwitch</font><br>
+                                <font color=red>*2016 通訊大賽 SDN 組評審團特別獎</font><br>
+                                email: cuteking00 AT gmail.com<br>
+                            </article>
+                        </div>
+                        <div class="4u 12u(mobile)">
+                            <article class="box style2">
+                                <a href="mailto:ken70504@gmail.com" class="image centered"><img src="images/LAB/ChiHau.png" alt="" height = 200;/></a>
+                                <h3><a href="mailto:ken70504@gmail.com">唐志豪</a></h3>
+                                103 入學 / 畢業學校:虎尾科 / Now: 亞旭<br>
+                                <font color=black>Indoor positioning based on 3GPP 3D channel model</font><br>
+                                <font color=red>*Conf. Paper in APWCS 2017</font><br>
+                                email: ken70504 AT gmail.com<br>
+                            </article>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="4u 12u(mobile)">
+                            <article class="box style2">
+                                <a href="mailto:eric1114473@gmail.com" class="image centered"><img src="images/LAB/Ni.jpg" alt="" height = 200;/></a>
+                                <h3><a href="mailto:eric1114473@gmail.com">倪劭諭</a></h3>
+                                103-2 入學 / 畢業學校:義守 / Now:資策會<br>
+                                <font color=black>Design and Implementation of a middleware layer for location-based mesh network</font><br>
+                                <font color=red>*Conf. Paper in MC2016</font><br>
+                                email: eric1114473 AT gmail.com<br>
+                            </article>
+                        </div>
+                        <div class="4u 12u(mobile)">
+                            <article class="box style2">
+                                <a href="mailto:janicehou1993@gmail.com" class="image centered"><img src="images/LAB/Hou.jpg" alt="" height = 200;/></a>
+                                <h3><a href="mailto:janicehou1993@gmail.com">后婕</a></h3>
+                                104 入學 / 畢業學校:虎尾科<br>
+                                <font color=black>Device to device messanger with Wifi Direct/BLE</font><br>
+                                <font color=red>*北科互聯網+創業競賽 Top-10</font><br>
+                                janicehou1993 AT gmail.com<br>
+                            </article>
+                        </div>
+                        <div class="4u 12u(mobile)">
+                            <article class="box style2">
+                                <a href="mailto:t100820331@ntut.org.tw" class="image centered"><img src="images/LAB/GuanSien.jpg" alt="" height = 200;/></a>
+                                <h3><a href="mailto:t100820331@ntut.org.tw">吳冠賢</a></h3>
+                                104 入學 / 畢業學校:北科<br>
+                                <font color=black>A Deep Neural Network-Based Indoor Positioning Method using Channel State Information</font><br>
+                                email: t100820331 AT ntut.org.tw<br>
+                            </article>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="row">
+                        <div class="4u 12u(mobile)">
+                            <article class="box style2">
+                                <a href="mailto:weikar6644@gmail.com" class="image centered"><img src="images/LAB/Wei.jpg" alt="" height = 200;/></a>
+                                <h3><a href="mailto:weikar6644@gmail.com">魏志嘉</a></h3>
+                                104 入學 / 畢業學校:高第一科大<br>
+                                <font color=black>Implementation of Filtered-OFDM-based Air-to-ground Communication Using Software-Defined Radio Platform</font><br>
+                                weikar6644  AT gmail.com<br>
+                            </article>
+                        </div>
+                        <div class="4u 12u(mobile)">
+                            <article class="box style2">
+                                <a href="mailto:chocolate0398@gmail.com" class="image centered"><img src="images/LAB/Wang.png" alt="" height = 200;/></a>
+                                <h3><a href="mailto:chocolate0398@gmail.com">王彥蓉</a></h3>
+                                105 入學 / 畢業學校:嘉義大學<br>
+                                <font color=black>A Single-Site Localization via Frequency Domain-based Multipath Fingerprinting</font><br>
+                                email: chocolate0398 AT gmail.com<br>
+                            </article>
+                        </div>
+                        <div class="4u 12u(mobile)">
+                            <article class="box style2">
+                                <a href="mailto:ray28850101@gmail.com" class="image centered"><img src="images/LAB/Yeh.png" alt="" height = 200;/></a>
+                                <h3><a href="mailto:ray28850101@gmail.com">葉又銘</a></h3>
+                                105 入學 / 畢業學校:亞東<br>
+                                <font color=black>Design and Implementation of Load-balancing Algorithm for Software-Defined Multi-channel Wireless Mesh Network</font><br>
+                                email: ray28850101 AT gmail.com<br>
+                            </article>
+                        </div>
+                        </div>
+                        <div class="row">
+                            <div class="4u 12u(mobile)">
+                                <article class="box style2">
+                                    <a href="mailto:chshbai@gmail.com" class="image centered"><img src="images/LAB/Bai.png" alt="" height = 200;/></a>
+                                    <h3><a href="mailto:chshbai@gmail.com">白承玄</a></h3>
+                                    105 入學 / 畢業學校:淡江<br>
+                                    <font color=black>Implementation and Analysis of Time Synchronization for Inter-Cell Interference Coordination in Small Cells using OAI</font><br>
+                                    email: chshbai AT gmail.com<br>
+                                </article>
+                            </div>
+                            <div class="4u 12u(mobile)">
+                                <article class="box style2">
+                                    <a href="mailto:mybaby0069su01@gmail.com" class="image centered"><img src="images/LAB/Chien.png" alt="" height = 200;/></a>
+                                    <h3><a href="mailto:mybaby0069su01@gmail.com">簡瑋辰</a></h3>
+                                    105 入學 / 畢業學校:亞東<br>
+                                    <font color=black>Design and Implementation of Multi-user Multi-channel selection for Software-Defined Wireless Mesh Network</font><br>
+                                    mybaby0069su01 AT gmail.com<br>
+                                </article>
+                            </div>
+                            
+                        </div>
+                    
+                    
+                    <br>
+                    <div class="wrapper style1 first">
+                        <article class="container" id="ISMaster">
+                            <div class="row">
+                                <!--                 <div class="4u 12u(mobile)">
+                                 <span class="image fit"><img src="images/direction.png" alt="" /></span>
+                                 </div>
+                                 -->
+                                <div class="12u 12u(mobile)">
+                                        <h3>碩士在職專班</h3>
+                                        <ul>
+                                            <li>吳俊青 105-1畢 Design and Implementation of Human Detection Based on Channel State Information. jayce AT leadtek.com.tw </li>
+                                            <li>曾靖鈞 105-1畢 Support Vector Machine-Based Human Detection using Channel State Information. jason_670214 AT yahoo.com.tw</li>
+                                            <li>戴佑軒 105-1畢 Design and Implementation of SDN-based Wireless Mesh Network. sotabo AT hotmail.com</li>
+                                            <li>黃旭弘 106年入學 LTE Implementation using OAI ironshi AT gmail.com</li>
+											<li>陳筱珊 107年入學 vivian.hs.chen AT gmail.com</li>
+											<li>余佳蓉 108年入學 yellow4310yellow4310 AT gmail.com</li>
+											
+                                          <!--  <li>魯業群 碩三 "Cluster-based D2D 機制於智慧型手機的實作" superrice419 AT gmail.com</li> -->
+                                        </ul>
+                                        </div>
+                                </article>
+                    </div>
+                    <br>
+                    <div class="wrapper style1 first">
+                        <article class="container" id="US">
+                            <div class="row">
+                                <!--                 <div class="4u 12u(mobile)">
+                                 <span class="image fit"><img src="images/direction.png" alt="" /></span>
+                                 </div>
+                                 -->
+                                <div class="12u 12u(mobile)">
+                                        <h3>專題生</h3>
+                                        <ul>
+                                            <li>108 邱昭文、鄭家丞、陳妤蓉 "OpenAirInterface 平台架設小基地台通訊"</li>
+                                            <li>108 郭家和、林凱強、宋凱云 "擴增實境物件解析系統"</li>
+                                            <li>108 張景銘、陳耕堂 "基於軟體無線電平台研製光通訊收發器"</li>
+                                            <li>108 林宗豫、陳靖霖、盧富勝 "基於軟體定義網路實作網速控制"</li>
+                                            <li>108 吳沛彣、林濬智、蔡秉翰、林暐庭 "毫米波雷達之手勢辨識"</li>
+                                            <li>108 陳柏銘 "基於深度學習使用Wi-Fi通道響應之室內定位法"</li>
+                                            <li>107 胡庭毓、吳展逸 "次米級的室內定位"</li>
+                                            <li>107 林世和、胡傑鳴 "基於 LTE OpenAirInterface 偽基站實作研究"</li>
+                                            <li>107 郭際元、許嘉峰、黃泓智 "基於 LTE OAI 之小基地台間干擾研究"</li>
+                                            <li>107 林弘毅、游日存 "應用深度學習方法於 P 波早期地震預警之嘗試"，共同指導</li>
+                                            <li>107 張育棋、田啟宏、林俊豪 "基於軟體定義網路實作WiFi漫遊機制"</li>
+                                            <li>106 陳宥廷、林信宏、曾奕儇 "基於 Linux 支援軟體無線電平台發展通道量測與室內定位" <font color=red>*科技部大專生專題計畫</font></li>
+                                            <li>106 李陞陽、辛泰宇、蔡政廷、楊濬瑞、簡偉宸 "智慧電風扇"</li>
+                                            <li>106 李政璋、麥家豪 飛行器空對地通訊模式研究</li>
+                                            <li>105 吳宇軒、陳佾新、蔡易廷 "智慧居家防盜系統" <font color=red>*科技部大專生專題計畫</font></li>
+                                            <li>104 盧俊憲、楊侑霖 "ibeacon 藍芽室內定位研製" <font color=red>*專題競賽佳作獎</font></li> </li>
+                                            <li>104 蘇駿杰、謝宇傑、陳庭鈞 "基於 Android 系統手機與電視盒應用程式同步機制研製"</li>
+                                            <li>103 郭奕佑 "智慧家庭無線路由器基於軟體無線電平台實作" <font color=red>*科技部大專生專題計畫</font>/<font color=red>專題競賽甲等獎</font></li>
+                                            <li>103 黃贊叡 "OFDM 實體層基於軟體無線電平台實作"</li>
+                                            <li>103 黃俊華、劉銘燊 "利用軟體無線電平台調變之光通訊系統實作" <font color=red>*2014 NI校園通訊競賽 軟體定義無線電系統組 第二名</font>/<font color=red>專題競賽佳作獎</font></li>
+                                        </ul>
+                                    </div>
+                            </div>
+                        </article>
+                    </div>
+                    
+                    
+                        </div>
+                    <footer>
+                        <!--			<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
+                        
+						<a href="#contact" class="button big scrolly">Get in touch with us</a>
+                          -->
+					</footer>
+				</article>
+			</div>
+
+
+<!-- Course -->
+<div class="wrapper style1 first">
+    <article class="container" id="Course">
+        <div class="row">
+            <!--                 <div class="4u 12u(mobile)">
+             <span class="image fit"><img src="images/direction.png" alt="" /></span>
+             </div>
+             -->
+            <div class="12u 12u(mobile)" id="CommIntro">
+                <h2><a name="NA">108-1 通訊工程導論 電子二甲、二乙</a></h2>
+                最新消息
+                <!--
+                 <li><a href="CommIntro/grade.png"><font color=red>期末成績</font></a>：尚未領取考卷者，考卷放在綜科館 210 助教桌上。成績若有問題，<font color=red>最遲請於 1/15 (一) 下午六點前</font>跟我或助教提出，之後將會送出成績。</li>
+                 <li>1/5 報告一組十分鐘，方式請參考<a href="CommIntro/CommIntroA.pdf"><font color=black>期初投影片</font></a> p12-p13，順序請參考<a href="CommIntro/FinalGroup.pdf"><font color=black>報告順序</a></font>。</li>
+                 <li>預計 12/22 (五) 舉行期末考、1/5 (五) 舉行期末報告。</li>
+                 <li>11/17 (五) 停課一次準備期中書面報告、並在 11/17 23:59 前將報告電子檔同時 email 給我跟助教 (email: phtseng@ntut.edu.tw, cosmos820604@gmail.com)。</li>
+                 -->
+                <!--
+                <li>期末成績已公佈:<a href="CommIntro/CommFinal1.png">原始成績 p1</a>,<a href="CommIntro/CommFinal2.png">原始成績 p2</a>;<a href="CommIntro/CommGrade.pdf">學期成績</a>，期末考卷公布在綜科210，若有問題最遲請於 1/16(三)下午前提出。</li>
+                <li>1/7 17:10-18:00 期末考</li>
+                <li>12/28、1/4 期末報告<a href="CommIntro/Order.pdf">順序列表</a>，詳細的組別請參考<a href="CommIntro/CommTeam.pdf">分組名單</a>，每組至多 15 分鐘，報告完就換下一組。</li>
+                <li>11/19 (一) 本系舉辦物聯網論壇，鼓勵同學至少參與一個上午、或一個下午時段，完成報名會附中餐便當，依據參與情形加分，請大家踴躍參與。報名<a href="https://goo.gl/forms/A4zq6a4GmLfjAwaz2">請按此</a></li>
+                <li>11/16 (五)、11/23 (五) 因老師參與會議/出國開會，分別停課一次。</li>
+                <li>11/9 (五) 舉行期中考。</li>
+                -->
+                <li>11/8 (五) 16:10-18:00 舉行期中考。</li>
+                <li>11/15 (五) 物聯網課程：物聯網系統概論，時間: 16:10-21:20，地點：綜科 211。</li>
+                <li>11/11 (一) 課程調整停課一次。</li>
+                <li>11/4 (一) 期中考週停課一次。</li>
+                <!--
+             <li>108年iPAS經濟部產業人才能力鑑定團報截止至10/7，請先至系統<a href="https://docs.google.com/forms/d/e/1FAIpQLSctRfzuGulI4sN3EYtVJc7VXDniRLzJLdImgTJCSdyEzhpkgw/viewform?usp=pp_url">報名</a>： 填寫報名資料，報名完成後將會收到繳費單，盡快完成繳費，並附上須繳交資料。</li>
+                -->
+                 <li>初級物聯網應用工程師考試時間: 12/7 (六)，考試資訊請參考：<a href="https://www.ipas.org.tw/iota/AbilityPageContent.aspx?mnuno=2be69c3f-8d1c-40f4-b5b7-ee1cb3500924&pgeno=d3366672-ba08-4ef8-bd02-949a92bb3851">iPAS物聯網應用工程師</a></li>
+                <li>9/23 (一)、9/27 (五) 因老師出國開會，停課一週。</li>
+                <li>9/9 <a href="CommIntro/CommIntro19.pdf"><font color=black>課程訊息</a></font>已公布。</li>
+                課程資訊
+                <ul>
+                    <li>上課時間: Mon 9 (二教203), Fri. 8,9 (二教205) </li>
+                    <li>Office hour: Thr. 4, 5, 6, 7, 8, 9，綜合科館 207-3 室</li>
+                    <li>助教：吳展逸
+                        <ul>
+                            <li>email: a3327642 AT gmail.com </li>
+                            <li>綜合科館 210 室</li>
+                        </ul>
+                    </li>
+                </ul>
+                <blockquote>
+                    <table border="0" cellspacing="0" cellpadding="3" align="center">
+                        <tr class="shade" align="left">
+                            <td width="40"><font class="normalbold">周次</font></td>
+                            <td width="90"><font class="normalbold">日期</font></td>
+                            <td width="250"><font class="normalbold">主題</font></td>
+                            <td width="150"><font class="normalbold">投影片、手稿</font></td>
+                            <td width="200"><font class="normalbold">作業、其他活動</font></td>
+                        </tr>
+                        <tr align="left">
+                            <td width="40"><font class="normalbold">1</font></td>
+                            <td width="90"><font class="normal">Sep. 9</font></td>
+                            <td width="250"><font class="normal">通訊簡介</font></td>
+                            <td width="150"><font class="normal"><a href="CommIntro/CommIntro19.pdf">Intro</a></font></td>
+                            <td width="200"><font class="normal"></font></td>
+                        </tr>
+                        <tr class="shade" align="left">
+                            <td width="40"><font class="normalbold">2</font></td>
+                            <td width="90"><font class="normal">Sep. 16/20</font></td>
+                            <td width="250">基本數學複習</td>
+                            <td width="150"><a href="CommIntro/Math.pdf">數學複習</a> </td>
+                            <td width="200"><font class="normal"></font></td>
+                        </tr>
+                        <tr align="left">
+                            <td width="40"><font class="normalbold">3</font></td>
+                            <td width="90"><font class="normal">Sep. 23/27</font></td>
+                            <td width="250">停課</td>
+                            <td width="150"></td>
+                            <td width="200"><font class="normal"></font></td>
+                        </tr>
+                        <tr class="shade" align="left">
+                            <td width="40"><font class="normalbold">4</font></td>
+                            <td width="90"><font class="normal">Sep. 30/Oct. 4</font></td>
+                            <td width="250"><font class="normal">Ch. 1</font></td>
+                            <td width="150"><font class="normal"><a href="CommIntro/Ch1.pdf">Ch. 1</a></font></td>
+                            <td width="200"><font class="normal"></font></td>
+                        </tr>
+                        <tr class="shade" align="left">
+                            <td width="40"><font class="normalbold">5</font></td>
+                            <td width="90"><font class="normal">Oct. 7</font></td>
+                            <td width="250"><font class="normal">Ch. 1</font></td>
+                            <td width="150"><font class="normal"></font></td>
+                            <td width="200"><font class="normal"></font></td>
+                        </tr>
+                        <tr class="shade" align="left">
+                            <td width="40"><font class="normalbold">6</font></td>
+                            <td width="90"><font class="normal">Oct. 14/18</font></td>
+                            <td width="250"><font class="normal">Ch. 1</font></td>
+                            <td width="150"><font class="normal"></font></td>
+                            <td width="200"><font class="normal"></font></td>
+                        </tr>
+                        <tr class="shade" align="left">
+                            <td width="40"><font class="normalbold">7</font></td>
+                            <td width="90"><font class="normal">Oct. 21/25</font></td>
+                            <td width="250"><font class="normal">Ch. 1</font></td>
+                            <td width="150"><font class="normal"></font></td>
+                            <td width="200"><font class="normal"></font></td>
+                        </tr>
+                        <tr class="shade" align="left">
+                            <td width="40"><font class="normalbold">8</font></td>
+                            <td width="90"><font class="normal">Oct. 28/Nov. 1</font></td>
+                            <td width="250"><font class="normal">Ch. 1</font></td>
+                            <td width="150"><font class="normal"></font></td>
+                            <td width="200"><font class="normal"></font></td>
+                        </tr>
+                        <tr class="shade" align="left">
+                            <td width="40"><font class="normalbold">9</font></td>
+                            <td width="90"><font class="normal">Nov. 8</font></td>
+                            <td width="250"><font class="normal">期中考</font></td>
+                            <td width="150"><font class="normal"></font></td>
+                            <td width="200"><font class="normal">Nov. 4 (一) 停課一次</font></td>
+                        </tr>
+                        <tr class="shade" align="left">
+                            <td width="40"><font class="normalbold">10</font></td>
+                            <td width="90"><font class="normal">Nov. 15</font></td>
+                            <td width="250"><font class="normal">物聯網課程：物聯網系統概論，時間: Nov. 15  16:10-21:20，地點：綜科 211</font></td>
+                            <td width="150"><font class="normal"></font></td>
+                            <td width="200"><font class="normal">Nov. 11 (一) 停課一次</font></td>
+                        </tr>
+                        
+                        <!--
+                        <tr class="shade" align="left">
+                            <td width="40"><font class="normalbold">5</font></td>
+                            <td width="90"><font class="normal">Oct. 8/12</font></td>
+                            <td width="250"><font class="normal">Ch. 1</font></td>
+                            <td width="150"><font class="normal"></font></td>
+                            <td width="200"><font class="normal"></font></td>
+                        </tr>
+                        <tr class="shade" align="left">
+                            <td width="40"><font class="normalbold">6</font></td>
+                            <td width="90"><font class="normal">Oct. 15/19</font></td>
+                            <td width="250"><font class="normal">Ch. 1</font></td>
+                            <td width="150"><font class="normal"></font></td>
+                            <td width="200"><font class="normal"></font></td>
+                        </tr>
+                        <tr class="shade" align="left">
+                            <td width="40"><font class="normalbold">7</font></td>
+                            <td width="90"><font class="normal">Oct. 22/26</font></td>
+                            <td width="250"><font class="normal">Ch. 1</font></td>
+                            <td width="150"><font class="normal"></font></td>
+                            <td width="200"><font class="normal"></font></td>
+                        </tr>
+                        <tr class="shade" align="left">
+                            <td width="40"><font class="normalbold">8</font></td>
+                            <td width="90"><font class="normal">Oct. 29/Nov. 2</font></td>
+                            <td width="250"><font class="normal">Ch. 1</font></td>
+                            <td width="150"><font class="normal"></font></td>
+                            <td width="200"><font class="normal"></font></td>
+                        </tr>
+                        <tr class="shade" align="left">
+                            <td width="40"><font class="normalbold">9</font></td>
+                            <td width="90"><font class="normal">Nov. 9</font></td>
+                            <td width="250"><font class="normal">期中考</font></td>
+                            <td width="150"><font class="normal"></font></td>
+                            <td width="200"><font class="normal"></font></td>
+                        </tr>
+                        <tr class="shade" align="left">
+                            <td width="40"><font class="normalbold">10</font></td>
+                            <td width="90"><font class="normal">Nov. 12</font></td>
+                            <td width="250"><font class="normal">Ch. 1 編碼</font></td>
+                            <td width="150"><font class="normal"></font></td>
+                            <td width="200"><font class="normal"></font></td>
+                        </tr>
+                        <tr class="shade" align="left">
+                            <td width="40"><font class="normalbold">11</font></td>
+                            <td width="90"><font class="normal">Nov. 19</font></td>
+                            <td width="250"><font class="normal">期中考卷</font></td>
+                            <td width="150"><font class="normal"></font></td>
+                            <td width="200"><font class="normal"></font></td>
+                        </tr>
+                        <tr class="shade" align="left">
+                            <td width="40"><font class="normalbold">12</font></td>
+                            <td width="90"><font class="normal">Nov. 26/30</font></td>
+                            <td width="250"><font class="normal">Ch. 1 編碼/Ch. 2</font></td>
+                            <td width="150"><font class="normal"><a href="CommIntro/Ch2.pdf">傅立葉轉換</a></font></td>
+                            <td width="200"><font class="normal"></font></td>
+                        </tr>
+                        <tr class="shade" align="left">
+                            <td width="40"><font class="normalbold">13</font></td>
+                            <td width="90"><font class="normal">Dec. 3/7</font></td>
+                            <td width="250"><font class="normal">無線通訊簡介</font></td>
+                            <td width="150"><font class="normal"><a href="CommIntro/IntroWirelessComm.pdf">無線通訊簡介</a></font></td>
+                            <td width="200"><font class="normal"></font></td>
+                        </tr>
+                        <tr class="shade" align="left">
+                            <td width="40"><font class="normalbold">14</font></td>
+                            <td width="90"><font class="normal">Dec. 10/14</font></td>
+                            <td width="250"><font class="normal">無線通訊簡介</font></td>
+                            <td width="150"><font class="normal"></font></td>
+                            <td width="200"><font class="normal"></font></td>
+                        </tr>
+                        <tr class="shade" align="left">
+                            <td width="40"><font class="normalbold">15</font></td>
+                            <td width="90"><font class="normal">Dec. 17/21</font></td>
+                            <td width="250"><font class="normal">無線通訊簡介</font></td>
+                            <td width="150"><font class="normal"></font></td>
+                            <td width="200"><font class="normal"></font></td>
+                        </tr>
+                        <tr class="shade" align="left">
+                            <td width="40"><font class="normalbold">16</font></td>
+                            <td width="90"><font class="normal">Dec. 24/28</font></td>
+                            <td width="250"><font class="normal">無線通訊簡介/期末報告</font></td>
+                            <td width="150"><font class="normal"></font></td>
+                            <td width="200"><font class="normal"><a href="CommIntro/Order.pdf">順序列表</a>；<a href="CommIntro/CommTeam.pdf">分組名單</a></font></td>
+                        </tr>
+                        <tr class="shade" align="left">
+                            <td width="40"><font class="normalbold">17</font></td>
+                            <td width="90"><font class="normal">Jan. 4</font></td>
+                            <td width="250"><font class="normal">期末報告</font></td>
+                            <td width="150"><font class="normal"></font></td>
+                            <td width="200"><font class="normal"><a href="CommIntro/Order.pdf">順序列表</a>；<a href="CommIntro/CommTeam.pdf">分組名單</a></font></td>
+                        </tr>
+                        <tr class="shade" align="left">
+                            <td width="40"><font class="normalbold">18</font></td>
+                            <td width="90"><font class="normal">Jan. 4</font></td>
+                            <td width="250"><font class="normal">期末考</font></td>
+                            <td width="150"><font class="normal"></font></td>
+                            <td width="200"><font class="normal">17:10 - 18:00 期末考</font></td>
+                        </tr>
+                         -->
+                    </table>
+                </blockquote>
+            </div>
+        </div>
+    </article>
+</div>
+
+
+<div class="wrapper style1 first">
+    <article class="container" id="SDN">
+        <div class="row">
+            <div class="12u 12u(mobile)">
+                <h2><a name="NC">108-1 軟體定義無線網路 四子四甲、四乙、四丙、電子所</a></h2>
+                最新消息
+                <!--
+                <li>期末成績已公佈:<a href="SDN/SDNFinal.png">原始成績</a>;<a href="SDN/SDNGrade.pdf">學期成績</a>，期末考卷公布在綜科210，若有問題最遲請於 1/16(三)下午前提出。</li>
+                <li>1/10 期末專題報告順序: <a href="SDN/0104sdnList.pdf">報告順序檔案</a>。</li>
+                <li>1/10 期末專題DEMO，報告內容包含構想、實作/模擬功能描述與展示、所遭遇的困難與解決方法。</li>
+                <li>1/3 9:00-11:00 期末考</li>
+                <li>11/29 (四) 今天的相關檔案下載請參考<a href="SDN/1129.zip">1129檔案</a>。</li>
+                <li>11/19 (一) 本系舉辦物聯網論壇，鼓勵同學至少參與一個上午、或一個下午時段，完成報名會附中餐便當，依據參與情形加分，請大家踴躍參與。報名<a href="https://goo.gl/forms/A4zq6a4GmLfjAwaz2">請按此</a></li>
+                <li>11/7 Esitnet/SDN switch 相關教材請參考<a href="https://drive.google.com/drive/folders/1ZbN-TnWipr1q9hHfejrXgGf_tFdfr2d7">Esitnet-SDN實驗</a>
+                    <li>11/1 請下載以下檔案到 VM <a href="SDN/estinet_auth-20181101.tar.bz2">estinet_auth-20181101.tar.bz2</a></li>
+                    <li>11/1 Estinet 單機下載的方式、安裝手冊、與 license key 公告在北科 i 學園/軟體定義無線網路中的講義材料中。</li>
+                    <li>11/1 授課內容：<a href="SDN/SimulationOfSDN20181101.pdf">投影片</a>，<a href="SDN/Simulation_of_SDN_OpenFlow_Exp_20181101.pdf">實驗手冊</a></li>
+                    <li>軟體定義無線網路<a href="https://goo.gl/forms/86EHre1nJLTyrwcF2">課程前置測驗</a>。</li>
+                    <li>Git 使用與教學可參考 ihower <a href="https://ihower.tw/git/">Git 版本控制系統</a>。</li>
+                 -->
+                    <li>Git 使用與教學可參考 ihower <a href="https://ihower.tw/git/">Git 版本控制系統</a>。</li>
+                    <li>軟體定義無線網路<a href="https://goo.gl/forms/86EHre1nJLTyrwcF2">課程前置測驗</a>。</li>
+                    <li>9/27 (五) 因老師出國開會，停課一週。</li>
+                    <li>9/20 <a href="SDN/intro_2019.pdf">課程訊息</a>已公布。</li>
+                    課程資訊
+                    <ul>
+                        <li>Fri. 5, 6, 7 (綜科 104)</li>
+                        <li>Office hour: Thr. 4, 5, 6, 7, 8, 9，綜合科館 207-3 室</li>
+                        <li>助教：楊其峰 stu92012 AT gmail.com / 李陞陽 stube0806450 AT gmail.com
+                            <ul>
+                                <li>綜合科館 210 室</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <blockquote>
+                        <table border="0" cellspacing="0" cellpadding="3">
+                            <tr class="shade" align="left">
+                                <td width="50"><font class="normalbold">周次</font></td>
+                                <td width="80"><font class="normalbold">日期</font></td>
+                                <td width="220"><font class="normalbold">主題</font></td>
+                                <td width="180"><font class="normalbold">投影片</font></td>
+                                <td width="250"><font class="normalbold">LAB</font></td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">1</font></td>
+                                <td><font class="normal">Sep. 13</font></td>
+                                <td><font class="normal">中秋節</font></td>
+                                <td><font class="normal"></td>
+                                <td><font class="normal"></font></td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">2</font></td>
+                                <td><font class="normal">Sep. 20</font></td>
+                                <td><font class="normal">課程介紹</font></td>
+                                <td><font class="normal"><a href="SDN/intro_2019.pdf">課程訊息</a></font></td>
+                                <td><font class="normal"><a href="SDN/LAB0.pdf">LAB 0</a> </font></td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">3</font></td>
+                                <td><font class="normal">Sep. 27</font></td>
+                                <td><font class="normal">停課</font></td>
+                                <td><font class="normal"></font></td>
+                                <td><font class="normal"></font></td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">4</font></td>
+                                <td><font class="normal">Oct. 4</font></td>
+                                <td><font class="normal">The Road To SDN</font></td>
+                                <td><font class="normal"><a href="SDN/RoadToSDN_v2.pdf">The Road To SDN</a></font></td>
+                                <td><font class="normal"><a href="SDN/git.pdf">GitLab 使用</a></td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">5</font></td>
+                                <td><font class="normal">Oct. 11</font></td>
+                                <td><font class="normal">國慶日連假</font></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">6</font></td>
+                                <td><font class="normal">Oct. 18</font></td>
+                                <td><font class="normal">The Road To SDN</font></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">7</font></td>
+                                <td><font class="normal">Oct. 25</font></td>
+                                <td><font class="normal">/校友演講</font></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">7</font></td>
+                                <td><font class="normal">Oct. 25</font></td>
+                                <td><font class="normal">/校友演講</font></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">8</font></td>
+                                <td><font class="normal">Nov. 1</font></td>
+                                <td><font class="normal">How SDN Works – Introduction of OpenFlow Protocol</font></td>
+                                <td><font class="normal"><a href="SDN/OpenFlow_v2.pdf">How SDN Works:OpenFlow</a></font>
+                                <td><font class="normal"><a href="SDN/LAB1.pdf">LAB 1: Mininet</a></font></td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">9</font></td>
+                                <td><font class="normal">Nov. 8</font></td>
+                                <td><font class="normal"></font></td>
+                                <td><font class="normal"><a href="SDN/LAB2.pdf">LAB 2: Mininet+Controller</a></font></td>
+                            </tr>
+                            <!--
+                            <tr align="left">
+                                <td><font class="normalbold">3</font></td>
+                                <td><font class="normal">Sep. 27</font></td>
+                                <td><font class="normal">How SDN Works – Introduction of OpenFlow Protocol</font></td>
+                                <td><font class="normal"><a href="SDN/OpenFlow_v2.pdf">How SDN Works:OpenFlow</a></font></td>
+                                <td><font class="normal"></td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">4</font></td>
+                                <td><font class="normal">Oct. 4</font></td>
+                                <td><font class="normal">How SDN Works/LAB 1</font></td>
+                                <td><font class="normal"></font></td>
+                                <td><font class="normal"><a href="SDN/LAB1.pdf">LAB 1: Mininet (繳交/Demo截止時間：Oct. 18)</a></td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">5</font></td>
+                                <td><font class="normal">Oct. 11</font></td>
+                                <td><font class="normal">How SDN Works/LAB 1</font></td>
+                                <td><font class="normal"></font></td>
+                                <td><font class="normal"></td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">6</font></td>
+                                <td><font class="normal">Oct. 18</font></td>
+                                <td><font class="normal">How SDN Works/LAB 2</font></td>
+                                <td><font class="normal"></font></td>
+                                <td><font class="normal"><a href="SDN/LAB2.pdf">LAB 2: ONOS on Mininet (繳交/Demo截止時間：Oct. 25)</a></td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">7</font></td>
+                                <td><font class="normal">Oct. 25</font></td>
+                                <td><font class="normal">LAB 3</font></td>
+                                <td><font class="normal"></font></td>
+                                <td><font class="normal"><a href="SDN/LAB3.pdf">LAB 3: Open vSwitch (OVS) on Raspberry PI</a></td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">8</font></td>
+                                <td><font class="normal">Nov. 1</font></td>
+                                <td><font class="normal">Estinet LAB: Simulator - Estinet, Estinet 高玲媛經理授課</font></td>
+                                <td><font class="normal"><a href="SDN/SimulationOfSDN20181101.pdf">投影片</a></td>
+                                <td><font class="normal"><a href="SDN/Simulation_of_SDN_OpenFlow_Exp_20181101.pdf">實驗手冊</a></td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">9</font></td>
+                                <td><font class="normal">Nov. 8</font></td>
+                                <td><font class="normal">Estinet LAB: SDN Switch 操作 Erick Jiang 授課</font></td>
+                                <td><font class="normal"><a href="https://drive.google.com/drive/folders/1ZbN-TnWipr1q9hHfejrXgGf_tFdfr2d7">投影片</a></td>
+                                <td><font class="normal"></td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">10</font></td>
+                                <td><font class="normal">Nov. 15</font></td>
+                                <td><font class="normal">LAB 3</font></td>
+                                <td><font class="normal"></td>
+                                <td><font class="normal"><a href="https://drive.google.com/open?id=1OCb_c-jnAVIycLl3engStji9TpzoEtki">實驗教學影片</a></td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">11</font></td>
+                                <td><font class="normal">Nov. 22</font></td>
+                                <td><font class="normal">Estinet LAB: SDN Switch 操作 Erick Jiang 授課</font></td>
+                                <td><font class="normal"></td>
+                                <td><font class="normal"></td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">12</font></td>
+                                <td><font class="normal">Nov. 29</font></td>
+                                <td><font class="normal">Estinet Simulator II: 高玲媛經理授課</font></td>
+                                <td><font class="normal"></td>
+                                <td><font class="normal"><a href="SDN/1129.zip">1129檔案</a></td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">13</font></td>
+                                <td><font class="normal">Dec. 6</font></td>
+                                <td><font class="normal">物聯網智慧製造解決方案與案例分享：研華傅承偉副理授課</font></td>
+                                <td><font class="normal"></td>
+                                <td><font class="normal"></td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">14</font></td>
+                                <td><font class="normal">Dec. 13</font></td>
+                                <td><font class="normal">Controller</font></td>
+                                <td><font class="normal"><a href="SDN/Controller_v2.pdf">Controller</a></td>
+                                <td><font class="normal"><a href="SDN/LAB4.pdf">LAB 4: Software-Defined Wireless Mesh Networks</a>;<a href="https://drive.google.com/open?id=1sFk5-fjLqSFvtGdptKoiF9bDbhvhUWpj">實驗教學影片</a>;<a href="SDN/LAB4.rar">檔案下載</a></td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">15</font></td>
+                                <td><font class="normal">Dec. 20</font></td>
+                                <td><font class="normal">SDN/NFV</font></td>
+                                <td><font class="normal"><a href="SDN/SDN_IoT.pdf">NFV, SDN for IoT/5G</a></td>
+                                <td><font class="normal"><a href="SDN/SDN_NFV.pdf">補充教材</a></td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">16</font></td>
+                                <td><font class="normal">Dec. 27</font></td>
+                                <td><font class="normal"></font></td>
+                                <td><font class="normal"></td>
+                                <td><font class="normal"></td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">17</font></td>
+                                <td><font class="normal">Jan. 3</font></td>
+                                <td><font class="normal">期末考</font></td>
+                                <td><font class="normal"></td>
+                                <td><font class="normal"></td>
+                            </tr>
+                            <tr align="left">
+                                <td><font class="normalbold">18</font></td>
+                                <td><font class="normal">Jan. 10</font></td>
+                                <td><font class="normal">期末專題DEMO</font></td>
+                                <td><font class="normal"></td>
+                                <td><font class="normal"></td>
+                            </tr>
+                            -->
+                        </table>
+                    </blockquote>
+                    </div>
+        </div>
+    </article>
+</div>
+ -->
+
+    <!-- Publication -->
+    <div class="wrapper style1 first">
+        <article class="container" id="publication">
+            <div class="row">
+                <!--
+                <div class="4u 12u(mobile)">
+                    <span class="image fit"><img src="images/direction.png" alt="" /></span>
+                </div>
+                -->
+                <div class="12u 12u(mobile)" id="journal">
+                    <header>
+                        <h2>Journal Paper</h2>
+                    </header>
+                    <ul>
+                        <li>J-21. Yi-Jie Lin, Po-Hsuan Tseng, Yao-Chia Chan, Jie He, and Guan-Sian Wu, “A Super-resolution-assisted Fingerprinting Method based on Channel Impulse Response Measurement for Indoor Positioning,”, IEEE Transactions on Mobile Computing</li>
+                        <li>J-20. Yuan Feng, Qinsiwei Yan, Po-Hsuan Tseng, Ganlin Hao, Nan Wu, “Distributed Target Localization with Inaccurate Collaborative Sensors in Multipath Environments,” KSII Transactions on Internet and Information Systems, vol. 13, no. 5: pp. 2299-2318, 2019</li>
+                        <li>J-19. Pei-Hsuan Chiu, Po-Hsuan Tseng, and Kai-Ten Feng, “Interactive Mobile Augmented Reality System for Image and Hand Motion Tracking,” IEEE Transactions on Vehicular Technology, vol. 67, no. 10, pp. 9995-10009, Oct. 2018</li>
+                        <li> J-18. Cheng Xu, Xiaotong Zhang, Jie He, Haipiao Cai, Shihong Duan, Po-Hsuan Tseng, and Chong Li,“Recurrent Transformation of Prior Knowledge based Model for Human Motion Recognition,” Computational Intelligence and Neuroscience, SI: Advances in Human-Computer Interactions: Methods, Algorithms, and Applications”, vol. 2018, Article ID 4160652, 12 pages, 2018.
+                        <li> J-17. Cheng Xu, Jie He, Xiaotong Zhang, Cui Yao, and Po-Hsuan Tseng, “Geometrical kinematic modeling on human motion using method of multi-sensor fusion,” in Elsevier Information Fusion, Volume 41, 2018, Pages 243-254
+                        <li>J-16. Cheng Xu, Jie He, Xiaotong Zhang, Po-Hsuan Tseng, and Shihong Duan,"Towards Near Ground Localization: Modelling and Applications for TOA Ranging Error with 802.15.4a CSS PHY," IEEE Transactions on Antennas & Propagation, 2017 <a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8013851" target="_blank">pdf</a></li>
+                        <li>J-15. Po-Hsuan Tseng, Yao-Chia Chan, Yi-Jie Lin, Ding-Bing Lin, Nan Wu, and Tsai-Mao Wang, "Ray-Tracing-Assisted Fingerprinting Based on Channel Impulse Response Measurement for Indoor Positioning," IEEE Transactions on Instrumentation & Measurement, Volume: 66, Issue: 5, pp. 1032 - 1045, May 2017 <a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7878519" target="_blank">pdf</a></li>
+                            <li> J-14. Po-Hsuan Tseng, "Cluster-Based Networks for Cooperative Localisation," IET Radar, Sonar & Navigation, Vol. 11, Issue 4, pp. 605–615, April, 2017<a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7902068" target="_blank">pdf</a></li>
+                            <li>J-13. Po-Hsuan Tseng and Ke-Ting Lee, "A Femto-Aided Location Tracking Algorithm in LTE-A Heterogeneous Networks," in IEEE Transactions on Vehicular Technology, vol. 66, no. 1, pp. 748-762, Jan. 2017. <a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7438931" target="_blank">pdf</a></li>
+                            <li>J-12. Po-Hsun Hu, <span style="text-decoration: underline;">Po-Hsuan Tseng</span>, Yi-You Guo and Chih-Chia Wei, “Distributed Transmit Beamforming Algorithms for Unsynchronized OFDM Systems with Timing Offset,” IEEE Comm. Lett., vol. 20, no. 9, pp. 1788-1791, Sept. 2016, <a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7506051" target="_blank">pdf</a></li>
+                        <li> J-11. Bin Li, Nan Wu, Hua Wang, <span style="text-decoration: underline;">Po-Hsuan Tseng</span>, Jingming Kuang, “Gaussian Message Passing-based Cooperative Localization on Factor Graph in Wireless Networks,” in Signal Processing, vol. 111, Jun. 2015, <a href="http://www.sciencedirect.com/science/article/pii/S0165168414005635/pdfft?md5=7252034fc62386e1109bcc6460c57ad5&pid=1-s2.0-S0165168414005635-main.pdf" target="_blank">pdf</a></li>
+                        <li> J-10. Wen-Jiunn Liu, Chao-Hua Huang, Kai-Ten Feng, and <span style="text-decoration: underline;">Po-Hsuan Tseng</span>,“Performance Analysis of Greedy Fast-Shift Block Acknowledgement for High-Throughput WLANs,” in ACM/Springer Wireless Networks, vol. 20, pp. 2503-2519, Nov. 2014, <a href="https://ir.nctu.edu.tw/bitstream/11536/123956/1/000343925600023.pdf" target="_blank">pdf</a></li>
+                        <li> J-9. <span style="text-decoration: underline;">Po-Hsuan Tseng</span>, Kai-Ten Feng, and Chao-Hua Huang, “POMDP-based Cell Selection Schemes for Wireless Networks,” in IEEE Comm. Lett., vol. 18, no. 5, pp. 797-800, May, 2014, <a href="http://ieeexplore.ieee.org/iel7/4234/5534602/06777395.pdf" target="_blank">pdf</a></li>
+                        <li> J-8. Wen-Jiunn Liu, Kai-Ten Feng, and <span style="text-decoration: underline;">Po-Hsuan Tseng</span>, “Optimality of Frame Aggregation-based Power-Saving Scheduling Algorithm for Broadband Wireless Networks,” in <em>IEEE Trans. Wireless Comm.</em>, vol. 13, no. 2, pp.577-591, Feb. 2014, <a href=http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6702847 target="_blank">pdf</a></li>
+                        <li> J-7. <span style="text-decoration: underline;">Po-Hsuan Tseng</span>, Zhi Ding, and Kai-Ten Feng, “Cooperative Self-Navigation in a Mixed LOS and NLOS Environment,” in <em>IEEE Trans. on Mobile Computing</em>, vol. 13, no. 2, pp. 350-363, Feb.
+                            2014, <a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6407135" target="_blank">pdf</a></li>
+                        <li> J-6. <span style="text-decoration: underline;">Po-Hsuan Tseng</span>, and Kai-Ten Feng, “Geometry-Assisted Localization Algorithms for Wireless Network,” in <em>IEEE Trans. on Mobile Computing</em>, vol. 12, no. 4, pp. 774-789, April 2013, <a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6171197" target="_blank">pdf</a></li>
+                        <li> J-5. <span style="text-decoration: underline;">Po-Hsuan Tseng</span>, and Kai-Ten Feng, “Derivation of CRLB for linear least square estimator in wireless location systems,” accepted and to appear in <em>ACM/Springer Wireless Networks, </em>vol. 18, no. 7, pp. 735-747, Oct. 2012, <a href="http://www.springerlink.com/content/g786k2025g66481w/fulltext.pdf" target="_blank">pdf</a></li>
+                        <li> J-4. Cheng-Tse Chiang, <span style="text-decoration: underline;">Po-Hsuan Tseng</span>, and Kai-Ten Feng, “Hybrid Unified Kalman Tracking Algorithms for Heterogeneous Wireless Location Systems,” <em>IEEE Trans. on Vehicular Technology, </em>vol.61, issue 2, Feb. 2012, <a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6111324" target="_blank">pdf</a></li>
+                        <li> J-3. <span style="text-decoration: underline;">Po-Hsuan Tseng</span>, Kai-Ten Feng, Yu-Chiun Lin, and Chao-Lin Chen, “Wireless Location Tracking Algorithms for Environments with Insufficient Signal Sources,” <em>IEEE Trans. on Mobile Computing, </em>vol.8, issue 12, pp.1676-1689, Dec. 2009, <a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=5274920&amp;isnumber=5291226" target="_blank">pdf</a></li>
+                        <li> J-2. <span style="text-decoration: underline;">Po-Hsuan Tseng</span> and Kai-Ten Feng, “Hybrid Network/Satellite-Based Location Estimation and Tracking Systems for Wireless Networks,” <em>IEEE Trans. on Vehicular Technology, </em>vol.58, issue 9, pp.5174-5189, Nov. 2009, <a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=5272269&amp;isnumber=5307285" target="_blank">pdf</a></li>
+                        <li> J-1. Chien-Hua Chen, Kai-Ten Feng, Chao-Lin Chen, and <span style="text-decoration: underline;">Po-Hsuan Tseng</span>, “Wireless Location Estimation With the Assistance of Virtual Base Stations,” <em>IEEE Trans. on Vehicular Technology</em>, vol.58, issue 1, pp.93-106, Jan. 2009, <a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=4510715&amp;isnumber=4749378" target="_blank">pdf</a></li>
+                    </ul>
+                </div>
+            </div>
+        </article>
+        
+        <article class="container" id="conference">
+            <div class="row">
+                
+                <div class="12u 12u(mobile)">
+                    <header>
+                        <h2>Conference Paper</h2>
+                    </header>
+                    <ul>
+                        <li>C-31. Yen-Rong Wang and Po-Hsuan Tseng, "A Single-Site Localization via Frequency Domain based Multipath Fingerprinting", in Proc. IEEE VTS Asia Pacific Wireless Communications Symposium (APWCS 2018), Hsinchu, Taiwan, Aug. 2018</li>
+                        <li>C-30. Hsiao-Chien Tsai, Chun-Jie Chiu, Po-Hsuan Tseng, Kai-Ten Feng, and Hsieh-Ming Yu, "Location-based Mining Schemes for Pedestrian Flow Analysis in Indoor Environments", in Proc. IEEE VTS Asia Pacific Wireless Communications Symposium (APWCS 2018), Hsinchu, Taiwan, Aug. 2018</li>
+                        <li>C-29. Hsiao-Chien Tsai, Chun-Jie Chiu, Po-Hsuan Tseng, and Kai-Ten Feng, "Refined Autoencoder-based CSI Hidden Feature Extraction for Indoor Spot Localization," in Proc. IEEE Vehicular Technology Conference Fall (VTC2018-Fall), Chicago, US</li>
+                        <li>C-28. Guan-Sian Wu and Po-Hsuan Tseng, "A Deep Neural Network-Based Indoor Positioning Method using Channel State Information," in IEEE International Conference on Computing, Networking and Communication (ICNC), Maui, US, Mar. 2018</li>
+                        <li>C-27. Chih-Hao Tang, Shin-Lin Shieh, and Po-Hsuan Tseng, “LTE Indoor Positioning based on 3D Channel
+                            Model,” in Proc. IEEE VTS Asia Pacific Wireless Communications Symposium (APWCS 2017), Incheon,
+                            Korea, Aug.23-25 2017.</li>
+                        <li>C-26. Yun-Ting Hung, Kai-Ten Feng and Po-Hsuan Tseng, “Automatic Hybrid Access Point Deployment for Wireless Localization Systems” in Proc. IEEE Wireless Communication and Networking Conference (WCNC 2017), San Francisco, US, 19-22 Mar. 2017.</li>
+                        <li>C-25. Yi-Jie Lin, Po-Hsuan Tseng, Yao-Chia Chan, and Guan-Sian Wu, “Super-resolution-aided Positioning Fingerprinting based on Channel Impulse Response Measurement” in Proc. IEEE Wireless Communication and Networking Conference (WCNC 2017), San Francisco, US, 19-22 Mar. 2017.</li>
+                        <li>C-24. Chun-Jie Chiu, Kai-Ten Feng, and Po-Hsuan Tseng, “Spatial Skeleton-enhanced Location Tracking for Indoor Localization” in Proc. IEEE Wireless Communication and Networking Conference (WCNC 2017), San Francisco, US, 19-22 Mar. 2017.</li>
+                        <li>C-23. Bo-An Chen, Po-Hsuan Tseng, Kai-Ten Feng, and Tian-Sheng Wang, “Fingerprinting-based Dynamic RSS Adjustment for Time-variant Indoor Positioning Systems”, in Proc. 2016 IEEE International Conference on Consumer Electronics-Taiwan (ICCE-TW), NANTOU COUNTY, Taiwan, pp. 246-247, May 27, 2016</li>
+                        <li>C-22. Heng-Xiu Liu, Bo-An Chen, Po-Hsuan Tseng, Kai-Ten Feng, and Tian-Sheng Wang, “Enhanced Area Estimation Algorithms for Indoor Wireless Localization”, in Proc. 2016 IEEE International Conference on Consumer Electronics-Taiwan (ICCE-TW), NANTOU COUNTY, Taiwan, pp. 244-245, May 27, 2016</li>
+                        <li>C-21. Po-Hsuan Tseng, “A Cluster-based Cooperative Localization Algorithm,” in Proc. IEEE Vehicular Technology Conference Fall (VTC2015-Fall), Boston US, Sep. 9, 2015.</li>
+                        <li>C-20. Tsai-Mau Wang, Po-Hsuan Tseng, Yao-Chia Chen and Ding-Bing Lin, “A Ray-Tracing Based Fingerprinting for Indoor Positioning,” in 2015 IEEE 12th Intl Conf on Ubiquitous Intelligence and Computing and 2015 IEEE 12th Intl Conf on Autonomic and Trusted Computing and 2015 IEEE 15th Intl Conf on Scalable Computing and Communications and Its Associated Workshops (UIC-ATC-ScalCom), Beijing, China, Aug. 10, 2015</li>
+                        <li>C-19. Heng-Xiu Liu, Bo-An Chen, Po-Hsuan Tseng, Kai-Ten Feng, and Tian-Sheng Wang,“Map-aware Indoor Area Estimation with Shortest Path Based on RSS Fingerprinting,” in Proc. IEEE Vehicular Technology Conference Spring (VTC2015-Spring), Glasgow, Scotland, May 2015.</li>
+                        <li>C-18. Yu-Chieh Tien, Chun-Jie Chiu, Po-Hsuan Tseng, and Kai-Ten Feng, ”Novel Design of Hand Motion Recognition based Visual Acuity Measurements through Wireless Communications,” in Proc. IEEE International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC 2014), Washington DC, Sept. 2014.</li>
+                        <li>C-17. Yu-Pei Lin, Po-Hsuan Tseng, and Kai-Ten Feng,”Compressive Sensing based Location Estimation using Channel Impulse Response Measurements,” in Proc. IEEE International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC 2014), Washington DC, Sept. 2014.</li>
+                        <li>C-16. Pei-Hsuan Chiu, <span style="text-decoration: underline;">Po-Hsuan Tseng</span>, and Kai-Ten Feng, “Cloud Computing Based Mobile Augmented Reality Interactive System,” in Proc. <em>IEEE Wireless Communication and Networking Conference (WCNC)</em>, Istanbul, Turkey, Apr. 8, 2014, <a href="http://mint.cm.nctu.edu.tw/WCNC_MARAIS.php" target="_blank"><font color="#FF0000">video</font></a></li>
+                        <li> C-15. Yao-Chia Chan, <span style="text-decoration: underline;">Po-Hsuan Tseng</span>, Ding-Bing Lin, and Hsin-Piao Lin, “Detecting Maximal Power Path in Timing Synchronization of Wireless OFDM Systems,” in Proc. <em>IEEE International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC 2013)</em>, London, UK, Sep. 2013.</li>
+                        <li> C-14. Yao-Chia Chan, <span style="text-decoration: underline;">Po-Hsuan Tseng</span>, and Ding-Bing Lin, “Fractional Timing Estimation with Fractionallyshifted Preamble for OFDM Systems,” in Proc. <em>IEEE VTS Asia Pacific Wireless Communications Symposium (APWCS 2013)</em>, Seoul, Korea, Aug. 2013.</li>
+                        <li> C-13. Pei-Hsuan Chiu, Kai-Ten Feng, <span style="text-decoration: underline;">Po-Hsuan Tseng</span>, “Particle-based Augmented Reality Interactive System”, in Proc. <em>IEEE International Conference on Multimedia and Expo Workshops (ICMEW 2013)</em>, San Jose, USA, 15 Jul. 2013</li>
+                        <li> C-12. Ke-Ting Lee, <span style="text-decoration: underline;">Po-Hsuan Tseng</span>, Chien-Hua Chen, and Kai-Ten Feng, ”Femto-Assisted Location Estimation in Macro/Femto Heterogeneous Networks,” in Proc. <em>IEEE Wireless Communication and Networking Conference (WCNC 2013)</em>, Shanghai, China, 10 Apr. 2013.</li>
+                        <li> C-11. Kai-Ten Feng, <span style="text-decoration: underline;">Po-Hsuan Tseng</span>, Pei-Shuan Chiu, Jia-Lin Yang, and Chun-Jie Chiu, ”3D Interactive, Augmented, Reality-enhanced Digital Learning Systems for Mobile Devices,” in Proc. <em>SPIE, The Engineering Reality of Virtual Reality</em>, Burlingame, USA, 4 Feb. 2013.</li>
+                        <li> C-10. Chi-Wai Tang, Kai-Ten Feng, <span style="text-decoration: underline;">Po-Hsuan Tseng</span>, Chien-Hua Chen, and Jing-Wei Guo, "A Pitch-Aided Lane Tracking Algorithm for Driver Assistance System with Insufficient Observations," in Proc. <em>IEEE Wireless Communication and Networking Conference (WCNC 2012)</em>, Paris, France, 4 Ari. 2012</li>
+                        <li> C-9. Cheng-Tse Chiang, <span style="text-decoration: underline;">Po-Hsuan Tseng</span>, and Kai-Ten Feng, "Hybrid TOA/TDOA Based Unified Kalman Tracking Algorithm for Wireless Networks," to appear in Proc. <em>21st IEEE International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC 2010)</em>, Istanbul, Turkey, 27 Sep 2010, <a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5671921" target="_blank">pdf</a></li>
+                        <li> C-8. <span style="text-decoration: underline;">Po-Hsuan Tseng</span> and Kai-Ten Feng, “An Enhanced Predictive Location Tracking Scheme with Deficient Signal Sources for Wireless Networks,” in Proc. <em>20th </em><em>IEEE International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC 2009)</em>, Tokyo, Japan, 14 Sep. 2009, pp. 1913 - 1917, <a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=5449917" target="_blank">pdf</a></li>
+                        <li> C-7. Kai-Ten Feng, Wen-Hsuan Fan, and <span style="text-decoration: underline;">Po-Hsuan Tseng</span>,  “Lifetime-Enhanced Adaptive Routing Protocol for Mobile Ad Hoc Networks,” in Proc. <em>IEEE VTS Asia Pacific Wireless Communications Symposium (APWCS 2009)</em><strong>,</strong> 21 Aug. 2009, Seoul, Korea</li>
+                        <li> C-6. Lin-Chih Chu, <span style="text-decoration: underline;">Po-Hsuan Tseng</span>, and Kai-Ten Feng, “GDOP-Assisted Location Estimation Algorithms in Wireless Location Systems,” in Proc. <em>IEEE Global Communications Conference (GLOBECOM 2008)</em>, New Orleans, USA, 3 Dec. 2008, <a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=4698807&amp;isnumber=4697775" target="_blank">pdf</a></li>
+                        <li> C-5. <span style="text-decoration: underline;">Po-Hsuan Tseng</span> and Kai-Ten Feng, “Location Tracking Assisted Handover Algorithms for Broadband Wireless Networks,” in Proc. <em>IEEE International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC 2008)</em>, Cannes, France, 18 Sep. 2008, pp. 1 - 5, <a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=4699776&amp;isnumber=4699392" target="_blank">pdf</a></li>
+                        <li> C-4. <span style="text-decoration: underline;">Po-Hsuan Tseng</span> and Kai-Ten Feng, “A Predictive Movement Based Handover Algorithm for Broadband Wireless Networks,” in Proc. <em>IEEE Wireless Communication and Networking Conference (WCNC 2008)</em>, Las Vegas, US, 3 Apr. 2008, pp. 2834 - 2839, <a href="http://ieeexplore.ieee.org/iel5/4489030/4489031/04489527.pdf?tp=&amp;arnumber=4489527&amp;isnumber=4489031" target="_blank">pdf</a></li>
+                        <li> C-3. Hsin-Lung Tseng, Yu-Pin Hsu, Chung-Hsien Hsu, <span style="text-decoration: underline;">Po-Hsuan Tseng</span>, and Kai-Ten Feng, “A Maximal Power-Conserving Scheduling Algorithm for Broadband Wireless Networks,” in Proc. <em>IEEE Wireless Communication and Networking Conference (WCNC 2008)</em>, Las Vegas, US, 3 Apr. 2008, pp. 1877 - 1882, <a href="http://ieeexplore.ieee.org/iel5/4489030/4489031/04489365.pdf?tp=&amp;isnumber=4489031&amp;arnumber=4489365&amp;punumber=4489030" target="_blank">pdf</a></li>
+                        <li> C-2. Yu-Chiun Lin, <span style="text-decoration: underline;">Po-Hsuan Tseng</span>, and Kai-Ten Feng, “A Predictive Location Tracking Algorithm for Mobile Devices with Deficient Signal Sources,” in Proc. <em>IEEE Vehicular Technology Conference Spring (VTC2007-Spring)</em>, Dublin, Ireland, 25 Apr. 2007, pp. 859 - 863, <a href="http://ieeexplore.ieee.org/iel5/4196544/4212428/04212614.pdf?tp=&amp;arnumber=4212614&amp;isnumber=4212428" target="_blank">pdf</a></li>
+                        <li> C-1. <span style="text-decoration: underline;">Po-Hsuan Tseng</span>, Chao-Lin Chen, and Kai-Ten Feng, “An Unified Kalman Tracking Technique for Wireless Location Systems,” in Proc. <em>IEEE 2nd International Symposium on Wireless Pervasive Computing (ISWPC 2007)</em>, San Juan, Puerto Rico, 8 Feb. 2007, <a href="http://ieeexplore.ieee.org/iel5/4147010/4139316/04147087.pdf?tp=&amp;isnumber=4139316&amp;arnumber=4147087&amp;punumber=4147010" target="_blank">pdf</a></li>
+                    </ul>
+                </div>
+            </div>
+        </article>
+    </div>
+    
+        <!-- Contact -->
+
+			<div class="wrapper style4">
+				<article id="contact" class="container 75%">
+                    
+					<header>
+						<h2>Contact Us</h2>
+						<p>臺北科技大學綜合科館 210 室 / 分機 2210</p>
+					</header>
+					<div>
+						<div class="row">
+                                <div class="4u 12u(mobile)">
+                                    <span class="image fit">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.736111283949!2d121.53351635015022!3d25.043028044005677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a97d47d065ab%3A0x408065901b0737ec!2z5ZyL56uL6Ie65YyX56eR5oqA5aSn5a2457ac5ZCI56eR6aSo!5e0!3m2!1szh-TW!2stw!4v1505227950620"allowfullscreen>
+                      </iframe>
+                      </span>
+                      <!--
+								<form method="post" action="mailto:phtseng@ntut.edu.tw" enctype="text/plain">
+									<div>
+										<div class="row">
+											<div class="6u 12u(mobile)">
+												<input type="text" name="name" id="name" placeholder="Name" />
+											</div>
+											<div class="6u 12u(mobile)">
+												<input type="text" name="email" id="email" placeholder="Email" />
+											</div>
+										</div>
+										<div class="row">
+											<div class="12u">
+												<input type="text" name="subject" id="subject" placeholder="Subject" />
+											</div>
+										</div>
+										<div class="row">
+											<div class="12u">
+												<textarea name="message" id="message" placeholder="Message"></textarea>
+											</div>
+										</div>
+										<div class="row 200%">
+											<div class="12u">
+												<ul class="actions">
+													<li><input type="submit" value="Send Message" /></li>
+													<li><input type="reset" value="Clear Form" class="alt" /></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</form>
+                       -->
+							</div>
+						</div>
+                        <!--
+						<div class="row">
+							<div class="12u">
+								<hr />
+								<h3>Find me on ...</h3>
+								<ul class="social">
+									<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+									<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
+									<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
+									<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+	
+									<li><a href="#" class="icon fa-rss"><span>RSS</span></a></li>
+									<li><a href="#" class="icon fa-instagram"><span>Instagram</span></a></li>
+									<li><a href="#" class="icon fa-foursquare"><span>Foursquare</span></a></li>
+									<li><a href="#" class="icon fa-skype"><span>Skype</span></a></li>
+									<li><a href="#" class="icon fa-soundcloud"><span>Soundcloud</span></a></li>
+									<li><a href="#" class="icon fa-youtube"><span>YouTube</span></a></li>
+									<li><a href="#" class="icon fa-blogger"><span>Blogger</span></a></li>
+									<li><a href="#" class="icon fa-flickr"><span>Flickr</span></a></li>
+									<li><a href="#" class="icon fa-vimeo"><span>Vimeo</span></a></li>
+
+								</ul>
+								<hr />
+							</div>
+						</div>
+					</div>
+            -->
+					<footer>
+						<ul id="copyright">
+							<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
+				</article>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/skel-viewport.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
